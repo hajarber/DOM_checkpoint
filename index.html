@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!--font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- font family-->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Work+Sans:ital,wght@1,200&display=swap"
+        rel="stylesheet" />
+    <title>shopping cart</title>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <img src="icone/Coffee-cup.svg" alt="Coffee-cup" />
+            <h1>Coffee Cup</h1>
+        </div>
+    </header>
+    <main>
+        <div class="cart">
+            <div class="cart_title"> Shopping Cart <i class="fa-solid fa-cart-shopping"></i></div>
+            <div class="itemRows">
+
+            </div>
+            <div class="total_cart">
+                <h1 class="total">TOTAL:</h1>
+                <span class="total_price">0DH</span>
+                <button class="purchase_btn">Purchase</button>
+            </div>
+
+        </div>
+        <!--Products-->
+        <div class="container">
+            <div class="items">
+                <img class="item_img" src="images/cup1.jpeg" alt="">
+                <button class="add_to_cart">Add to Cart</button>
+                <div class="item_price">20 DH</div>
+            </div>
+            <div class="items">
+                <img class="item_img" src="images/cup2.jpeg" alt="">
+                <button class="add_to_cart">Add to Cart</button>
+                <div class="item_price">30 DH</div>
+            </div>
+            <div class="items">
+                <img class="item_img" src="images/cup3.jpeg" alt="">
+                <button class="add_to_cart">Add to Cart</button>
+
+                <div class="item_price">40 DH</div>
+
+            </div>
+        </div>
+    </main>
+    <script defer src="script.js"></script>
+</body>
+
+</html>
